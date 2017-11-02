@@ -2,7 +2,9 @@
   "name": "law-parser",
   "version": "1.0.0",
   "description": "A parser for Swedish laws",
-  "bin": "bin/bin.js",
+  "bin": {
+    "law-parser": "bin/bin.js"
+  },
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -14,5 +16,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christoffer Hasselberg",
-  "license": "ISC"
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stofolus/law-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stofolus/law-parser/issues"
+  },
+  "homepage": "https://github.com/stofolus/law-parser#readme"
 }
