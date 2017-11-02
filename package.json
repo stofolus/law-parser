@@ -1,6 +1,6 @@
 {
   "name": "law-parser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A parser for Swedish laws",
   "bin": "bin/bin.js",
   "main": "index.js",
